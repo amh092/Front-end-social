@@ -255,7 +255,7 @@ hr {
 .today-box header {
   display: flex;
   flex-flow: row-reverse wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 27px 0 0 0;
 }
 
@@ -265,17 +265,21 @@ hr {
   font-weight: bold;
   font-size: 14px;
   line-height: 17px;
-  /* identical to box height */
   color: #63687d;
   text-align: left;
+  margin: 0 0 0 24px;
 }
 
 .today-box .indicator {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: flex-end;
   margin: 23px 0 0 0;
+}
+
+.today-box header svg {
+  margin: 0 31px 0 0;
 }
 
 .today-box .indicator > h1 {
@@ -285,14 +289,15 @@ hr {
   font-size: 32px;
   line-height: 39px;
   color: #1d1f29;
+  margin: 0 0 0 24px;
 }
 
 .today-box .indicator .right-side {
-  width: 52px;
   height: 15px;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
+  margin: 0 31px 0 0;
 }
 
 .right-side h1 {
@@ -301,11 +306,25 @@ hr {
   font-weight: bold;
   font-size: 12px;
   line-height: 15px;
-  text-align: right;
   color: #1eb589;
   padding: 0;
   margin: 0;
-  text-align: right;
+}
+
+.switch-btn {
+  background: linear-gradient(225deg, #40DB82 0%, #388FE7 98.02%);
+}
+
+.switch-btn span {
+  left: 6px;
+}
+
+.dark-mode {
+  background-color: #252B42;
+}
+
+.dark-mode-font {
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
