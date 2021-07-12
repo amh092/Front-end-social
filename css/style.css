@@ -233,7 +233,7 @@ hr {
   font-weight: bold;
   font-size: 24px;
   line-height: 29px;
-  color: #63687D;
+  color: #63687d;
   text-align: left;
 }
 
@@ -247,7 +247,7 @@ hr {
 .today-box {
   width: 326px;
   height: 125px;
-  background: #F1F3FA;
+  background: #f1f3fa;
   border-radius: 5px;
   margin: 0 0 16px 0;
 }
@@ -266,14 +266,14 @@ hr {
   font-size: 14px;
   line-height: 17px;
   /* identical to box height */
-  color: #63687D;
+  color: #63687d;
   text-align: left;
 }
 
 .today-box .indicator {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: flex-end;
   margin: 23px 0 0 0;
 }
@@ -284,7 +284,7 @@ hr {
   font-weight: bold;
   font-size: 32px;
   line-height: 39px;
-  color: #1D1F29;
+  color: #1d1f29;
 }
 
 .today-box .indicator .right-side {
@@ -302,7 +302,7 @@ hr {
   font-size: 12px;
   line-height: 15px;
   text-align: right;
-  color: #1EB589;
+  color: #1eb589;
   padding: 0;
   margin: 0;
   text-align: right;
