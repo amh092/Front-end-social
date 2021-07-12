@@ -240,5 +240,78 @@ color: #63687D;
 text-align: left;
 }
 
+// third container styling
+.third-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
 
+.today-box {
+    width: 326px;
+height: 125px;
+background: #F1F3FA;
+border-radius: 5px;
+margin: 0 0 16px 0;
+}
+
+.today-box header {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-around;
+    margin: 27px 0 0 0 ;
+}
+
+.today-box header  h1 {
+    font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #63687D;
+
+text-align: left;
+
+}
+
+.today-box .indicator {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: 23px 0 0 0;
+  
+}
+.today-box .indicator > h1{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: #1D1F29;
+}
+.today-box .indicator .right-side{
+    width: 52px;
+    height: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center
+}
+
+.right-side h1 {
+    font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-align: right;
+color: #1EB589;
+padding: 0;
+margin: 0;
+text-align: right;
+}
 // media query for desktop //
