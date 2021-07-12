@@ -33,7 +33,6 @@ body {
   font-weight: bold;
   font-size: 24px;
   line-height: 29px;
-  color: #1d1f29;
   text-align: left;
 }
 .font-mobile-title {
@@ -43,7 +42,7 @@ body {
   font-size: 14px;
   line-height: 17px;
   text-align: left;
-  color: #63687d;
+
 }
 // mobile font ends
 
@@ -174,7 +173,7 @@ hr {
   line-height: 48px;
   text-align: center;
   letter-spacing: -2px;
-  color: #1d1f29;
+  
 }
 
 .box .mid h1:first-of-type {
@@ -326,8 +325,12 @@ margin: 0 31px 0 0;
 }
 .dark-mode {
   background-color: #252B42;
+ 
+}
+.white-text {
+  color: #fff;
 }
 
-.dark-mode-font {
- color: #fff;
+.background-black {
+  background-color: black;
 }
