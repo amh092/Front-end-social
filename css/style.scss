@@ -1,243 +1,244 @@
 /* google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 // global selector
-*,*::before *::after {
-    box-sizing: border-box;;
-} 
+*,
+*::before *::after {
+  box-sizing: border-box;
+}
 
-// rest 
-h1,p,a,li{
-    padding: 0;
-    margin: 0;
+// rest
+h1,
+p,
+a,
+li {
+  padding: 0;
+  margin: 0;
 }
 
 :root {
-   --font : inter;
+  --font: inter;
 }
-// mobile first approach// 
-//mobile 375px // 
+// mobile first approach//
+//mobile 375px //
 body {
-    width: 375px;
-    font-family: var(font);
-    margin: 0 auto;
-
-}   
-// fonts classes 
+  width: 375px;
+  font-family: var(font);
+  margin: 0 auto;
+}
+// fonts classes
 // font for container header dashboard
 .font-mobile-header {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 29px;
-    color: #1D1F29;
-    text-align: left;
-    
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1d1f29;
+  text-align: left;
 }
 .font-mobile-title {
-    font-family: Inter;
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 17px;
-text-align: left;
-color: #63687D;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: left;
+  color: #63687d;
 }
-// mobile font ends 
+// mobile font ends
 
-
-// .first-container mobile 
+// .first-container mobile
 .first-container {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: flex-start;
-    align-items: center;
-    width: 375px;
-    height: 235px;
-    border-radius: 0 0 20px 20px;
-    background-color: #F7F9FF;;
-   
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 375px;
+  height: 235px;
+  border-radius: 0 0 20px 20px;
+  background-color: #f7f9ff;
 }
 .dashboard {
-    
-    margin-top: 36px;
+  margin-top: 36px;
 }
 
 .first-container .mode-switch {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-    width: 326px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 326px;
 }
 
 .mode-switch button {
-width: 48px;
-height: 24px;
-border-radius: 12px;
-background-color:  #AEB3CB;
-border: none;
-cursor: pointer;
-
+  width: 48px;
+  height: 24px;
+  border-radius: 12px;
+  background-color: #aeb3cb;
+  border: none;
+  cursor: pointer;
 }
 .mode-switch button span {
-    display: block;
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    background-color: #F7F9FF;;
-    z-index: 1000;
-    float: right;
-    left: 9px;
-    position: relative;
-}
-hr {
-    width: 326px;
-    margin: 24px 0 16px 0;
+  display: block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #f7f9ff;
+  z-index: 1000;
+  float: right;
+  left: 9px;
+  position: relative;
 }
 
-// second container 
+hr {
+  width: 326px;
+  margin: 24px 0 16px 0;
+}
+
+// second container
 
 .second-container {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -40px;
 }
 .box {
-    width: 326px;
-    height: 216px;
-    border-radius: 5px;
-    background: #F1F3FA;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    font-family: Inter; 
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 14.52px;
-    color: #63687D;
-    margin: 0 0 24px 0;
-    position: relative;
+  width: 326px;
+  height: 216px;
+  border-radius: 5px;
+  background: #f1f3fa;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14.52px;
+  color: #63687d;
+  margin: 0 0 24px 0;
+  position: relative;
 }
 
 .box .upper {
-    height: 4px;
-    width: 100%;
-    justify-self: flex-start;
-    align-self: flex-start;
-    position: relative;
-    top: -12px;
-    border-radius: 5px 5px 0px 0px;
+  height: 4px;
+  width: 100%;
+  justify-self: flex-start;
+  align-self: flex-start;
+  position: relative;
+  top: -12px;
+  border-radius: 5px 5px 0px 0px;
 }
 
 .facebook .upper {
-    background: #178FF5;
-
+  background: #178ff5;
 }
 .twitter .upper {
-background: #1DA1F2;
+  background: #1da1f2;
 }
 .instagram .upper {
-    background: linear-gradient(225deg, #DF4896 0%, #EE877E 50.91%, #FDC366 100%);
+  background: linear-gradient(225deg, #df4896 0%, #ee877e 50.91%, #fdc366 100%);
 }
 .youtube .upper {
-    background: #C4032B;
+  background: #c4032b;
 }
 
 .box header {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;  
-    // width: 86px;
-    margin: 32px 0 28px 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  // width: 86px;
+  margin: 32px 0 28px 0;
 }
 .box header h1 {
-    font-family: Inter;
-font-style: normal;
-font-weight: bold;
-font-size: 12px;
-line-height: 15px;
-/* identical to box height */
-color: #63687D;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  color: #63687d;
 }
 .box header svg {
-    margin: 0 8px 0 0 ;
+  margin: 0 8px 0 0;
 }
 .box .mid {
-    font-family: Inter;
-font-style: normal;
-font-weight: bold;
-font-size: 56px;
-line-height: 48px;
-text-align: center;
-letter-spacing: -2px;
-color: #1D1F29;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -2px;
+  color: #1d1f29;
 }
 
 .box .mid h1:first-of-type {
-    font-family: Inter;
-font-style: normal;
-font-weight: bold;
-font-size: 56px;
-line-height: 48px;
-/* identical to box height, or 86% */
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 48px;
+  /* identical to box height, or 86% */
 
-text-align: center;
-letter-spacing: -2px;
+  text-align: center;
+  letter-spacing: -2px;
 
-color: #1D1F29;
-margin: 0 0 8px 0 ;
+  color: #1d1f29;
+  margin: 0 0 8px 0;
 }
 
 .box .mid h1:last-of-type {
-    font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 15px;
-/* identical to box height */
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
 
-text-align: center;
-letter-spacing: 5px;
-text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
 
-color: #63687D;
+  color: #63687d;
 }
 
 .box .today {
-    display: flex;
-    flex-flow:  row wrap;
-    justify-content: center;
-    align-items: center ;
-    margin: 25px 0 0 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0 0 0;
 }
 
 .box .today h1 {
-    font-family: Inter;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #1eb589;
+  margin: 0 0 0 4px;
+}
+
+// styling overview
+.overview {
+    width: 326px;
+    margin: 46px 0 27px 0px;
+}
+.overview h1 {
+font-family: Inter;
 font-style: normal;
 font-weight: bold;
-font-size: 12px;
-line-height: 15px;
-color: #1EB589;
-margin: 0 0 0 4px;
-}
-
-.facebook 
-{
-
+font-size: 24px;
+line-height: 29px;
+color: #63687D;
+text-align: left;
 }
 
 
-.twitter {
-
-}
-
-.instagram {
-  
-}
 // media query for desktop //
-

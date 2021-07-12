@@ -1,10 +1,14 @@
 /* google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-*, *::before *::after {
+*,
+*::before *::after {
   box-sizing: border-box;
 }
 
-h1, p, a, li {
+h1,
+p,
+a,
+li {
   padding: 0;
   margin: 0;
 }
@@ -25,7 +29,7 @@ body {
   font-weight: bold;
   font-size: 24px;
   line-height: 29px;
-  color: #1D1F29;
+  color: #1d1f29;
   text-align: left;
 }
 
@@ -36,7 +40,7 @@ body {
   font-size: 14px;
   line-height: 17px;
   text-align: left;
-  color: #63687D;
+  color: #63687d;
 }
 
 .first-container {
@@ -47,7 +51,7 @@ body {
   width: 375px;
   height: 235px;
   border-radius: 0 0 20px 20px;
-  background-color: #F7F9FF;
+  background-color: #f7f9ff;
 }
 
 .dashboard {
@@ -66,7 +70,7 @@ body {
   width: 48px;
   height: 24px;
   border-radius: 12px;
-  background-color: #AEB3CB;
+  background-color: #aeb3cb;
   border: none;
   cursor: pointer;
 }
@@ -76,7 +80,7 @@ body {
   width: 18px;
   height: 18px;
   border-radius: 50%;
-  background-color: #F7F9FF;
+  background-color: #f7f9ff;
   z-index: 1000;
   float: right;
   left: 9px;
@@ -94,13 +98,14 @@ hr {
   justify-content: center;
   align-items: center;
   position: relative;
+  top: -40px;
 }
 
 .box {
   width: 326px;
   height: 216px;
   border-radius: 5px;
-  background: #F1F3FA;
+  background: #f1f3fa;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -109,7 +114,7 @@ hr {
   font-weight: 700;
   font-size: 12px;
   line-height: 14.52px;
-  color: #63687D;
+  color: #63687d;
   margin: 0 0 24px 0;
   position: relative;
 }
@@ -125,19 +130,19 @@ hr {
 }
 
 .facebook .upper {
-  background: #178FF5;
+  background: #178ff5;
 }
 
 .twitter .upper {
-  background: #1DA1F2;
+  background: #1da1f2;
 }
 
 .instagram .upper {
-  background: linear-gradient(225deg, #DF4896 0%, #EE877E 50.91%, #FDC366 100%);
+  background: linear-gradient(225deg, #df4896 0%, #ee877e 50.91%, #fdc366 100%);
 }
 
 .youtube .upper {
-  background: #C4032B;
+  background: #c4032b;
 }
 
 .box header {
@@ -155,7 +160,7 @@ hr {
   font-size: 12px;
   line-height: 15px;
   /* identical to box height */
-  color: #63687D;
+  color: #63687d;
 }
 
 .box header svg {
@@ -170,7 +175,7 @@ hr {
   line-height: 48px;
   text-align: center;
   letter-spacing: -2px;
-  color: #1D1F29;
+  color: #1d1f29;
 }
 
 .box .mid h1:first-of-type {
@@ -182,7 +187,7 @@ hr {
   /* identical to box height, or 86% */
   text-align: center;
   letter-spacing: -2px;
-  color: #1D1F29;
+  color: #1d1f29;
   margin: 0 0 8px 0;
 }
 
@@ -196,7 +201,7 @@ hr {
   text-align: center;
   letter-spacing: 5px;
   text-transform: uppercase;
-  color: #63687D;
+  color: #63687d;
 }
 
 .box .today {
@@ -213,8 +218,23 @@ hr {
   font-weight: bold;
   font-size: 12px;
   line-height: 15px;
-  color: #1EB589;
+  color: #1eb589;
   margin: 0 0 0 4px;
+}
+
+.overview {
+  width: 326px;
+  margin: 46px 0 27px 0px;
+}
+
+.overview h1 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #63687D;
+  text-align: left;
 }
 
 /*# sourceMappingURL=style.css.map */
