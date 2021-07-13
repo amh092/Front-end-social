@@ -43,7 +43,9 @@ body {
   font-size: 14px;
   line-height: 17px;
   text-align: left;
-  margin: 3px 0 0 0;
+  margin: 3px 0 0px 0;
+  padding: 0 0 46px 0 ;
+  
 }
 // mobile font ends
 
@@ -427,7 +429,7 @@ hr {
     height: 125px;
   }
   .wrapper {
-    top: -46px;
+    top: -65px;
     position: relative;
     
   }
