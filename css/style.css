@@ -188,7 +188,6 @@ hr {
   /* identical to box height, or 86% */
   text-align: center;
   letter-spacing: -2px;
-  color: #1d1f29;
   margin: 0 0 8px 0;
 }
 
@@ -289,7 +288,6 @@ hr {
   font-weight: bold;
   font-size: 32px;
   line-height: 39px;
-  color: #1d1f29;
   margin: 0 0 0 24px;
 }
 
@@ -325,7 +323,7 @@ hr {
   background-color: #252B42;
   z-index: 1000;
   float: right;
-  left: -23px;
+  left: -18px;
   position: relative;
   transition: 200ms;
 }
@@ -336,12 +334,16 @@ hr {
   transition: 200ms;
 }
 
+.black-text {
+  color: #1d1f29;
+}
+
 .white-text {
   color: #fff;
 }
 
 .background-black {
-  background-color: black;
+  background-color: #1d1f29;
   transition: 200ms;
 }
 

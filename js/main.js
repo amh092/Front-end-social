@@ -4,7 +4,7 @@ var switchBtn = document.querySelector("button");
 var bodyTag = document.querySelectorAll("body");
 var boxes = document.querySelectorAll(".box");
 var todayBoxes = document.querySelectorAll(".today-box");
-var midH1 = document.querySelectorAll(".mid h1")
+var midH1 = document.querySelectorAll(".black-text")
 var firstContainer = document.querySelector(".first-container")
 var buttonSpan = document.querySelector("button span")
 
@@ -24,5 +24,10 @@ switchBtn.addEventListener("click", function () {
         todayBoxes[i].classList.toggle("dark-mode")
     }
  
+    for (i = 0; midH1.length; i = i + 1){
+        midH1[i].classList.toggle("black-text");
+        midH1[i].classList.toggle("white-text");
+
+    }
 })
 
