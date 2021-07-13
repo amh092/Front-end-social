@@ -426,6 +426,11 @@ hr {
     top: -46px;
     position: relative;
   }
+  .attribution {
+    text-align: center;
+    width: 1110px;
+    margin: 0 auto;
+  }
 }
 // desktop media queries ends
 
@@ -470,3 +475,15 @@ hr {
   transition: 200ms;
 }
 // end of toggle classes
+
+
+.coder-name-white {
+  color: #FFF;
+  text-decoration: none;
+
+}
+.coder-name-blue {
+
+  color: blue;
+  text-decoration: none;
+}

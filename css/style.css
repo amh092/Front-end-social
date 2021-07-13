@@ -429,6 +429,12 @@ hr {
     top: -46px;
     position: relative;
   }
+
+  .attribution {
+    text-align: center;
+    width: 1110px;
+    margin: 0 auto;
+  }
 }
 .switch-btn {
   background: linear-gradient(225deg, #40db82 0%, #388fe7 98.02%);
@@ -470,6 +476,16 @@ hr {
 .background-black {
   background-color: #1d1f29;
   transition: 200ms;
+}
+
+.coder-name-white {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.coder-name-blue {
+  color: blue;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
