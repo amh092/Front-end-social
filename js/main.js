@@ -1,5 +1,5 @@
 // declare variables 
-'use-strict'
+'use-strict';
 
 var switchBtn = document.querySelector("button");
 var bodyTag = document.querySelectorAll("body");
@@ -18,6 +18,7 @@ switchBtn.addEventListener("click", function () {
     firstContainer.classList.toggle("dark-mode");
     buttonSpan.classList.toggle("mode-switch-light")
     buttonSpan.classList.toggle("switch-btn-span-dark")
+    buttonSpan.classList.toggle("white-text");
     for(i = 0; i < boxes.length; i = i +1 ) {
         boxes[i].classList.toggle("dark-mode")
     }

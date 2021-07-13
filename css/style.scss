@@ -91,6 +91,7 @@ body {
   left: 9px;
   position: relative;
   transition: 200ms;
+  color: #63687D;
 }
 
 hr {
@@ -229,8 +230,10 @@ hr {
 
 // styling overview
 .overview {
+ 
   width: 326px;
-  margin: 46px 0 27px 0px;
+  margin: auto;
+  margin-bottom: 27px;
 }
 .overview h1 {
   font-family: Inter;
@@ -319,6 +322,23 @@ hr {
   body {
     width: 1440px;
   }
+   .font-mobile-header {
+  font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 34px;
+/* identical to box height */
+
+text-align: center;
+   }
+.font-mobile-title {
+  font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+}
   .first-container {
     
     flex-flow: row wrap;
@@ -353,7 +373,7 @@ hr {
   }
   //end of desktop media queries 
   .mode-switch button {
-    margin: 0 0 0 13px;
+    margin: 0 0 0 13px;}
     .switch-btn-span-dark {
       display: block;
       width: 18px;
@@ -365,9 +385,10 @@ hr {
       left :-17px;
       position: relative;
       transition: 200ms;
+      color: #FFF;
     }
   }
- } // desktop media queries ends 
+  // desktop media queries ends 
   
 
   // toggle classes for dark mode 
@@ -388,22 +409,23 @@ hr {
     left: -10px;
     position: relative;
     transition: 200ms;
+    color: white;
   }
   .dark-mode {
     background-color: #252B42;
     color: #FFF;
     transition: 200ms;
-   
   }
+
   .black-text {
     color: #1d1f29;
   }
-  .white-text  {
-    color: #fff;
+ 
+  .gray-color {
+    color:#63687D
   }
   .background-black {
     background-color: #1d1f29;
     transition: 200ms;
   }
-  
   // end of toggle classes

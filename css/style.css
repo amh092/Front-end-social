@@ -86,6 +86,7 @@ body {
   left: 9px;
   position: relative;
   transition: 200ms;
+  color: #63687D;
 }
 
 hr {
@@ -224,7 +225,8 @@ hr {
 
 .overview {
   width: 326px;
-  margin: 46px 0 27px 0px;
+  margin: auto;
+  margin-bottom: 27px;
 }
 
 .overview h1 {
@@ -315,6 +317,24 @@ hr {
     width: 1440px;
   }
 
+  .font-mobile-header {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    /* identical to box height */
+    text-align: center;
+  }
+
+  .font-mobile-title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
   .first-container {
     flex-flow: row wrap;
     justify-content: flex-start;
@@ -350,7 +370,8 @@ hr {
   .mode-switch button {
     margin: 0 0 0 13px;
   }
-  .mode-switch button .switch-btn-span-dark {
+
+  .switch-btn-span-dark {
     display: block;
     width: 18px;
     height: 18px;
@@ -361,6 +382,7 @@ hr {
     left: -17px;
     position: relative;
     transition: 200ms;
+    color: #FFF;
   }
 }
 .switch-btn {
@@ -379,6 +401,7 @@ hr {
   left: -10px;
   position: relative;
   transition: 200ms;
+  color: white;
 }
 
 .dark-mode {
@@ -391,8 +414,8 @@ hr {
   color: #1d1f29;
 }
 
-.white-text {
-  color: #fff;
+.gray-color {
+  color: #63687D;
 }
 
 .background-black {
