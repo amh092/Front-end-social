@@ -40,6 +40,7 @@ body {
   font-size: 14px;
   line-height: 17px;
   text-align: left;
+  margin: 3px 0 0 0;
 }
 
 .first-container {
@@ -449,7 +450,7 @@ hr {
   background-color: #252b42;
   z-index: 1000;
   float: right;
-  left: -19px;
+  left: -11px;
   position: relative;
   transition: 200ms;
   color: white;

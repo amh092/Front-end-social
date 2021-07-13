@@ -395,6 +395,7 @@ hr {
     justify-content: space-around;
     position: relative;
     margin: 0 auto;
+  
    
   }
 
@@ -411,6 +412,7 @@ hr {
     margin: 0 auto;
     margin-bottom: 24px;
     width: 1110px;
+    
   }
   .third-container {
     width: 1110px;
@@ -418,14 +420,16 @@ hr {
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
+   
   }
   .today-box {
     width: 255px;
     height: 125px;
   }
   .wrapper {
-    top: -40px;
+    top: -46px;
     position: relative;
+    
   }
   .attribution {
     text-align: center;
@@ -450,7 +454,7 @@ hr {
   background-color: #252b42;
   z-index: 1000;
   float: right;
-  left: -19px;
+  left: -11px;
   position: relative;
   transition: 200ms;
   color: white;
