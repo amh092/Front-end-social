@@ -1,5 +1,5 @@
 // declare variables 
-'use-strict';
+'use-strict'
 
 var switchBtn = document.querySelector("button");
 var bodyTag = document.querySelectorAll("body");
@@ -8,6 +8,7 @@ var todayBoxes = document.querySelectorAll(".today-box");
 var midH1 = document.querySelectorAll(".black-text")
 var firstContainer = document.querySelector(".first-container")
 var buttonSpan = document.querySelector("button span")
+var overView = document.querySelector(".overview")
 
 // toggling dark mode on and off based on button clicking
 
@@ -18,7 +19,6 @@ switchBtn.addEventListener("click", function () {
     firstContainer.classList.toggle("dark-mode");
     buttonSpan.classList.toggle("mode-switch-light")
     buttonSpan.classList.toggle("switch-btn-span-dark")
-    buttonSpan.classList.toggle("white-text");
     for(i = 0; i < boxes.length; i = i +1 ) {
         boxes[i].classList.toggle("dark-mode")
     }
@@ -31,5 +31,7 @@ switchBtn.addEventListener("click", function () {
     midH1[i].classList.toggle("white-text");
 
      }
+     overView.classList.toggle("gray-color")
+     overView.classList.toggle("white-text")
 })
 
