@@ -44,7 +44,7 @@ body {
   line-height: 17px;
   text-align: left;
   margin: 3px 0 0px 0;
-  padding: 0 0 46px 0 ;
+ 
   
 }
 // mobile font ends
@@ -405,7 +405,25 @@ hr {
     width: 255px;
     height: 216px;
     margin: 0;
+   justify-items: flex-start;
   }
+  .box header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    // width: 86px;
+    margin: 0px 0 28px 0;
+  }
+  .box .upper {
+    height: 4px;
+    width: 100%;
+    justify-self: flex-start;
+    align-self: flex-start;
+    position: relative;
+    top: -26px;
+    border-radius: 5px 5px 0px 0px;
+}
   .overview {
     display: flex;
     flex-flow: row wrap;
