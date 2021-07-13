@@ -1,4 +1,5 @@
 // declare variables 
+'use-strict'
 
 var switchBtn = document.querySelector("button");
 var bodyTag = document.querySelectorAll("body");
@@ -24,10 +25,10 @@ switchBtn.addEventListener("click", function () {
         todayBoxes[i].classList.toggle("dark-mode")
     }
  
-    for (i = 0; midH1.length; i = i + 1){
-        midH1[i].classList.toggle("black-text");
-        midH1[i].classList.toggle("white-text");
+   for (i = 0; midH1.length; i = i + 1){
+   midH1[i].classList.toggle("black-text");
+    midH1[i].classList.toggle("white-text");
 
-    }
+     }
 })
 

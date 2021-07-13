@@ -18,7 +18,7 @@ li {
 }
 
 body {
-  width: 414px;
+  width: 375px;
   font-family: var(font);
   margin: 0 auto;
   transition: 200ms;
@@ -310,6 +310,59 @@ hr {
   margin: 0;
 }
 
+@media screen and (min-width: 1200px) {
+  body {
+    width: 1440px;
+  }
+
+  .first-container {
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 244px;
+    border-radius: 0 0 20px 20px;
+    background-color: #f7f9ff;
+    transition: 200ms;
+  }
+
+  .dashboard {
+    margin: 36px 646px 46px 162px;
+  }
+
+  .first-container .mode-switch {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 136px;
+    height: 24px;
+  }
+
+  .mode-switch-light {
+    left: 0px;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .mode-switch button {
+    margin: 0 0 0 13px;
+  }
+  .mode-switch button .switch-btn-span-dark {
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #252B42;
+    z-index: 1000;
+    float: right;
+    left: -17px;
+    position: relative;
+    transition: 200ms;
+  }
+}
 .switch-btn {
   background: linear-gradient(225deg, #40DB82 0%, #388FE7 98.02%);
   transition: 200ms;
