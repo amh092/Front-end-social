@@ -29,7 +29,6 @@ body {
   font-weight: bold;
   font-size: 24px;
   line-height: 29px;
-  color: #1d1f29;
   text-align: left;
 }
 
@@ -40,7 +39,6 @@ body {
   font-size: 14px;
   line-height: 17px;
   text-align: left;
-  color: #63687d;
 }
 
 .first-container {
@@ -52,6 +50,7 @@ body {
   height: 235px;
   border-radius: 0 0 20px 20px;
   background-color: #f7f9ff;
+  transition: 200ms;
 }
 
 .dashboard {
@@ -75,7 +74,7 @@ body {
   cursor: pointer;
 }
 
-.mode-switch button span {
+.mode-switch-light {
   display: block;
   width: 18px;
   height: 18px;
@@ -85,6 +84,7 @@ body {
   float: right;
   left: 9px;
   position: relative;
+  transition: 200ms;
 }
 
 hr {
@@ -117,6 +117,7 @@ hr {
   color: #63687d;
   margin: 0 0 24px 0;
   position: relative;
+  transition: 200ms;
 }
 
 .box .upper {
@@ -175,7 +176,6 @@ hr {
   line-height: 48px;
   text-align: center;
   letter-spacing: -2px;
-  color: #1d1f29;
 }
 
 .box .mid h1:first-of-type {
@@ -313,18 +313,35 @@ hr {
 
 .switch-btn {
   background: linear-gradient(225deg, #40DB82 0%, #388FE7 98.02%);
+  transition: 200ms;
 }
 
-.switch-btn span {
-  left: 6px;
+.switch-btn-span-dark {
+  display: block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #252B42;
+  z-index: 1000;
+  float: right;
+  left: -23px;
+  position: relative;
+  transition: 200ms;
 }
 
 .dark-mode {
   background-color: #252B42;
+  color: #FFF;
+  transition: 200ms;
 }
 
-.dark-mode-font {
+.white-text {
   color: #fff;
+}
+
+.background-black {
+  background-color: black;
+  transition: 200ms;
 }
 
 /*# sourceMappingURL=style.css.map */
